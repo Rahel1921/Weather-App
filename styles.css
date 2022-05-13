@@ -1,12 +1,10 @@
 body {
   font-family: arial, sans-serif;
-  background: #fcfbf9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffffff,
-    #f3f2f0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #faf9f5);
+    background: radial-gradient(
+    circle at 0.7% 1%,
+    rgb(215, 248, 247) 0%,
+    rgb(220, 234, 241) 100.2%
+  );
 }
 h1 {
   color: #070c27;
@@ -55,11 +53,12 @@ h5 {
 
 .card {
   margin: 10px;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("images/banner.jpg");
+  background: radial-gradient(
+    465px at -15.1% -25%,
+    rgb(17, 130, 193) 0%,
+    rgb(67, 166, 238) 49%,
+    rgb(126, 203, 244) 90.2%
+  );
 
   border-radius: 20px;
   max-width: 50%;
